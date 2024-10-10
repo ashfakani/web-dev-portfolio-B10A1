@@ -1,4 +1,4 @@
-/* font styles  */
+/* font-styles  */
 .azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -9,9 +9,30 @@
 
 /* Shared Styles  */
 .dark-1 {
-    color: #0D1321;
+    color: rgba(13, 19, 33, 1.00);
+    font-size: 16px;
+    font-weight: 400;
 }
 
+.dark-2 {
+    color: rgba(13, 19, 33, 0.70);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    margin-top: 32px;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(13, 19, 33, 1.00);
+    font-family: "Azeret Mono", monospace;
+
+}
+
+.text-center {
+    text-align: center;
+}
 
 
 /* nav-styles */
@@ -48,5 +69,25 @@ nav {
     font-weight: 700;
     padding: 21px 24px;
     border-radius: 8px;
+
+}
+
+/* main section styles  */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+
+/* details section style  */
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+    max-width: 946px;
+    margin: 32px auto;
+    background-color: white;
+    padding: 48px 48px;
 
 }
